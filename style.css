@@ -1,11 +1,11 @@
 main{
-    background-color:aliceblue
+    background-color:rgba(0, 136, 255, 0.434)
 }
-body{
+body {
 background-color:corner-present
 }
 p{
-    color:black
+    color:rgb(255, 255, 255)
 }
 #banner{
     width: 50%;
