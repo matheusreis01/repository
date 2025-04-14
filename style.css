@@ -15,7 +15,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover{
-    color: rgb(229, 212, 87);
+    color: rgba(142, 161, 208);
     text-decoration: underline;
 }
 #logo{
@@ -53,16 +53,16 @@ nav{
 }
 
 .produtos li:hover {
-    border-color: rgb(229, 212, 87);
+    border-color: rgb(142, 161, 208);
 }
 
 .produtos li:active{
-    border-color: rgb(229, 212, 87);
+    border-color: rgb(255, 255, 255);
 }
 
 .produtos li:hover h2{
     font-size: 34px;
-    color:rgb(229, 212, 87);
+    color:rgb(142, 161, 208);
 }
 
 .produtos h2 {
@@ -93,4 +93,30 @@ footer img{
     color:black;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 50px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0
 }
